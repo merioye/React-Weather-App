@@ -1,0 +1,17 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --rad: 0.7rem;
+    --dur: 0.3;
+    --color-dark: #2f2f2f;
+    --color-light: #fff;
+    --color-brand: #57bd84;
+    --bex: cubic-bezier(0,0,0.43,1.49);
+    --btn-width: 6rem;
+    --height: 5rem;
+}

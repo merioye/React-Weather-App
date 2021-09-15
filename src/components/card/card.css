@@ -1,0 +1,185 @@
+.body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-dark);
+    padding-top: 100px;
+}
+
+
+
+/* ############ Input Sections style starts here ############## */
+.input-wrapper{
+    width: 500px;
+    height: 40px;
+    /* border: 1px solid white; */
+    margin: auto;
+    position: relative;
+}
+/* ########## Input Box style ######### */
+.inputBox{
+    width: 85%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    padding: 16px;
+    font-size: 1rem;
+}
+.inputBox:focus {
+    color: #00b4cc;
+  }
+/* ############# Input button style ########## */
+.search-btn{
+    width: 15%;
+    height: 95%;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    background: #048b9c;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+.search-btn:hover {
+    background-color: #17b8ce;
+  }
+
+/* ############ Input Sections style ends here ############## */
+
+
+
+
+
+
+/* ############ Card Sections style starts here ############## */
+.card-section{
+    height: 400px;
+    width: 650px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+      0 17px 17px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+/* ########### Weather Icon style ########## */
+.weather-icon-container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: weathericons;
+    font-size: 6rem;
+}
+
+/* ########### Temperatures and Time section style ############# */
+.temp-time-wrapper{
+    width: 100%;
+    height: 25%;
+    background: #080705;
+    display: flex;
+}
+
+/* ########## Temperature and country style ######### */
+.temp-wrapper{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.temp{
+    height: 55px;
+    width: 50%;
+    font-size: 3rem;
+    color: var(--color-light);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.temp p{
+    display: inline-block;
+    position: relative;
+}
+.temp-wrapper p span{
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: -20px;
+}
+.country-info{
+    width: 50%;
+    height: 55px;
+    color: rgb(226, 220, 220);
+}
+.country-info h1{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.country-info p{
+    text-transform: capitalize;
+}
+
+
+
+/* ########## Time sections style ########## */
+.time-wrapper{
+    height: 100%;
+    width: 30%;
+    background: var(--color-brand);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.time-wrapper h2{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+
+
+/* ############ Weather Info style ############ */
+.weather-info{
+    width: 100%;
+    height: 25%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-wrapper{
+    height: 50%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info-wrapper i{
+    color: var(--color-brand);
+    font-size: 1.8rem;
+}
+.info{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.info p{
+    font-weight: 600;
+}
