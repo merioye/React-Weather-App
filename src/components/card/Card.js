@@ -16,7 +16,7 @@ const Card = ()=>{
     useEffect(()=>{
         const call = async ()=>{
             try{
-                const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid={Put your ApI Key Here}&units=metric`);
+                const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.REACT_APP_API_KEY}&units=metric`);
                 if(!response.ok){
                     throw new Error(response.status);
                 }
